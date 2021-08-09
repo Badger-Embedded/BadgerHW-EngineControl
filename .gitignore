@@ -24,3 +24,10 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Gerber Files
+gerber/
+gerber.zip
+
+# Backup files
+*-backups/**
