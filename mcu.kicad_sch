@@ -954,7 +954,6 @@
     )
   )
 
-
   (junction (at 32.258 39.624) (diameter 1.36) (color 0 0 0 0))
   (junction (at 41.402 39.624) (diameter 1.36) (color 0 0 0 0))
   (junction (at 41.402 44.704) (diameter 0.9144) (color 0 0 0 0))
@@ -1579,7 +1578,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2a818ca8-5e19-49c5-993a-6a451c37cbfe)
   )
-  (hierarchical_label "CHARGE" (shape output) (at 74.676 97.028 180)
+  (hierarchical_label "nCHARGE" (shape output) (at 74.676 97.028 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1d469d46-7834-453e-86b2-bdfab27abd13)
   )
