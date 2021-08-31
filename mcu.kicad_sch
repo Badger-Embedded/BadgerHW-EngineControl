@@ -1578,7 +1578,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2a818ca8-5e19-49c5-993a-6a451c37cbfe)
   )
-  (hierarchical_label "nCHARGE" (shape output) (at 74.676 97.028 180)
+  (hierarchical_label "CHARGE" (shape output) (at 74.676 97.028 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1d469d46-7834-453e-86b2-bdfab27abd13)
   )

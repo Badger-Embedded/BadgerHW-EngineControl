@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.0,
-          "width": 2.0
+          "height": 0.64,
+          "width": 0.54
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -44,8 +44,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
-          "min_clearance": 1.0
+          "45_degree_only": false,
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -64,6 +64,7 @@
         "clearance|104010465|108610465|91f2af28-1aae-4379-86a2-1bad38d5697b|60b6e482-06a9-4362-8744-5c34105ff1e6",
         "clearance|105600000|91109559|0062592c-72e3-4a0f-8fde-c0ff86a77487|1872ff3f-e666-46ee-b119-8543263f2dfd",
         "clearance|105600000|93800000|4c843540-7088-4c04-a1b1-02b1e235f8eb|1872ff3f-e666-46ee-b119-8543263f2dfd",
+        "clearance|106090000|93310000|699155d1-b3a2-4068-9642-5ac0acb85183|1872ff3f-e666-46ee-b119-8543263f2dfd",
         "clearance|106090000|93310000|c7dd6c55-c89d-4243-b8ac-c4e5f4336436|1872ff3f-e666-46ee-b119-8543263f2dfd",
         "clearance|106210000|93800000|4a4c7ef4-20da-4809-8f75-20fda3c39a46|1872ff3f-e666-46ee-b119-8543263f2dfd",
         "clearance|106211551|102050992|3847c920-d40a-47a7-94f3-6f8e1a75c280|b05107db-0e69-4ca1-b0d5-d1a90ffea4c3",
@@ -75,6 +76,7 @@
         "clearance|107600000|101400000|2834ea1c-7b15-4fc6-b822-61b667a9078d|37e16867-7d8f-4f55-b1a4-9ca732a4000b",
         "clearance|107906148|102601600|7dcdf355-97f5-411c-a453-555e56aaf0fd|b05107db-0e69-4ca1-b0d5-d1a90ffea4c3",
         "clearance|108083722|101883722|3a5c8035-2ea3-4b84-b62c-f87c1305ddbf|37e16867-7d8f-4f55-b1a4-9ca732a4000b",
+        "clearance|108089474|93310000|7721ffb9-69b5-4fb8-bba9-5d966a1db4f3|1872ff3f-e666-46ee-b119-8543263f2dfd",
         "clearance|108089474|93310000|a4d51a6a-7a07-41c7-b260-ca9b7631a7a5|1872ff3f-e666-46ee-b119-8543263f2dfd",
         "clearance|108398400|102198400|18010eac-7f25-47be-a4c4-977f79dbf668|37e16867-7d8f-4f55-b1a4-9ca732a4000b",
         "clearance|90577966|98818644|8a710565-aecd-4596-a617-1b8f34a04f30|c5c7a9df-1a41-4d1b-a98f-a1a451a8719b",
@@ -89,6 +91,8 @@
         "clearance|95488289|91800000|632af056-285e-4051-a512-987d5229d26f|c83d7e68-02a1-4ffb-90bb-fffb1507bfcd",
         "clearance|96633645|93893579|bb857b45-0e98-4d6b-bbd9-46b6c127de6c|c83d7e68-02a1-4ffb-90bb-fffb1507bfcd",
         "clearance|97000000|108505855|c098e19c-f350-4c7e-9cb8-e6f14335679d|ad12b0a4-9303-4127-8a89-db98ebaec297",
+        "clearance|97200000|89894872|90a0d910-3b90-436f-9a04-1bd3084bafeb|c83d7e68-02a1-4ffb-90bb-fffb1507bfcd",
+        "clearance|97200000|91000000|52ef6ad0-4c30-4693-80d8-330983e2bc55|c83d7e68-02a1-4ffb-90bb-fffb1507bfcd",
         "clearance|97247500|91047500|9160e9ce-0313-4dfb-aedb-2b4fa42892f1|c83d7e68-02a1-4ffb-90bb-fffb1507bfcd",
         "clearance|97643646|93525969|3847c920-d40a-47a7-94f3-6f8e1a75c280|bb857b45-0e98-4d6b-bbd9-46b6c127de6c",
         "clearance|97726624|109232479|425caf2b-c7d4-4b9d-8744-1cb8e508d749|ad12b0a4-9303-4127-8a89-db98ebaec297",
@@ -111,7 +115,11 @@
         "copper_edge_clearance|93892515|97780574|a5d139e9-ef1e-4cc5-9637-3a57aa1371e9|c5c7a9df-1a41-4d1b-a98f-a1a451a8719b",
         "copper_edge_clearance|95235683|104434528|a5d139e9-ef1e-4cc5-9637-3a57aa1371e9|3a8c968a-3906-4f02-add6-4b4d18764d39",
         "copper_edge_clearance|98186310|93767434|a5d139e9-ef1e-4cc5-9637-3a57aa1371e9|c83d7e68-02a1-4ffb-90bb-fffb1507bfcd",
-        "copper_edge_clearance|99766414|106507494|a5d139e9-ef1e-4cc5-9637-3a57aa1371e9|ad12b0a4-9303-4127-8a89-db98ebaec297"
+        "copper_edge_clearance|99766414|106507494|a5d139e9-ef1e-4cc5-9637-3a57aa1371e9|ad12b0a4-9303-4127-8a89-db98ebaec297",
+        "hole_clearance|66406933|102500000|0431a95b-4eb0-4882-99b3-cf7e6e0a80fd|83310150-4e45-4d61-96bb-b02f425691c5",
+        "hole_clearance|66406933|102500000|c73ae978-494d-4f88-9f48-8878f9200dc4|83310150-4e45-4d61-96bb-b02f425691c5",
+        "hole_clearance|66406933|97500000|8bd603b4-b600-448b-b1d7-9887d64650d7|9ba5fc49-c6fc-49b0-86ee-8100dd7b5f39",
+        "hole_clearance|66406933|97500000|c2e8c7fd-9782-4166-8608-4b20e7db297e|9ba5fc49-c6fc-49b0-86ee-8100dd7b5f39"
       ],
       "meta": {
         "version": 2
@@ -495,8 +503,7 @@
         "name": "HiCurrent",
         "nets": [
           "/Ignition/BATT+",
-          "/Ignition/IGN+",
-          "Net-(C13-Pad1)"
+          "/Ignition/IGN+"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 0)",
