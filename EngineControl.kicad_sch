@@ -6,7 +6,8 @@
 
   (title_block
     (title "Badger-Pike: Engine Control Module")
-    (rev "Rev. 1")
+    (date "2021-09-01")
+    (rev "Rev. 3")
     (company "Badger")
   )
 

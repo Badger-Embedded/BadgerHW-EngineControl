@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Badger-Pike: Engine Control Module")
+    (date "2021-09-01")
+    (rev "Rev. 3")
+    (company "Badger")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J3" (id 0) (at 0 2.794 0)

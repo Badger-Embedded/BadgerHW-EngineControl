@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Badger-Pike: Engine Control Module")
+    (date "2021-09-01")
+    (rev "Rev. 3")
+    (company "Badger")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
@@ -859,15 +866,15 @@
   )
 
 
-  (junction (at 99.06 52.832) (diameter 2.4136) (color 0 0 0 0))
+  (junction (at 99.06 52.832) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 104.394 65.532) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 104.394 82.55) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 104.394 87.122) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 115.824 73.66) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 122.174 52.832) (diameter 2.4136) (color 0 0 0 0))
   (junction (at 124.206 73.66) (diameter 0.9144) (color 0 0 0 0))
-  (junction (at 179.832 52.832) (diameter 2.4136) (color 0 0 0 0))
-  (junction (at 231.394 52.832) (diameter 2.4136) (color 0 0 0 0))
+  (junction (at 179.832 52.832) (diameter 0.9144) (color 0 0 0 0))
+  (junction (at 231.394 52.832) (diameter 0.9144) (color 0 0 0 0))
 
   (wire (pts (xy 63.754 52.832) (xy 99.06 52.832))
     (stroke (width 0) (type solid) (color 0 0 0 0))
