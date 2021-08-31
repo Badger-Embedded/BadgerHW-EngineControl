@@ -14,9 +14,16 @@
   )
 
 
-  (wire (pts (xy 142.24 58.42) (xy 163.068 58.42))
+  (no_connect (at 116.84 91.44) (uuid 2a11a525-5774-4fe7-87f6-586533fe7fee))
+  (no_connect (at 118.872 91.44) (uuid 2a11a525-5774-4fe7-87f6-586533fe7fee))
+
+  (wire (pts (xy 142.24 56.134) (xy 163.068 56.134))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid a8a1a4e6-9838-45dd-9d01-0a8fd89359c6)
+  )
+  (wire (pts (xy 142.24 57.912) (xy 163.068 57.912))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid daf8a695-a9cb-4cd6-b84b-ca76ff7ce5e7)
   )
   (wire (pts (xy 142.24 61.976) (xy 163.068 61.976))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -87,7 +94,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid f8a88478-b25c-4765-bf2a-9567e9a774ad)
     )
-    (pin "IGN0" input (at 163.068 58.42 180)
+    (pin "IGN0" input (at 163.068 56.134 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 528f0022-3ce6-4d54-a705-02d14ec40a78)
     )
@@ -127,6 +134,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 77f25699-28f1-41de-843d-0564696a7a71)
     )
+    (pin "IGN1" input (at 163.068 57.912 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 4d6b06c6-d1ca-49ea-b70a-c573289057e9)
+    )
   )
 
   (sheet (at 102.108 54.61) (size 40.132 36.83)
@@ -159,7 +170,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid f940c024-e930-42e8-84dd-af4df7682a21)
     )
-    (pin "IGN0" input (at 142.24 58.42 0)
+    (pin "IGN0" input (at 142.24 56.134 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 0b3fd044-5368-49ed-a24a-d5736da37064)
     )
@@ -178,6 +189,18 @@
     (pin "nCHARGE" output (at 142.24 79.756 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 01818793-fbb8-4253-9630-d6145c960c0c)
+    )
+    (pin "SDA" bidirectional (at 116.84 91.44 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b84e0b72-5f5a-4733-9b3a-41bf8708c17e)
+    )
+    (pin "SCL" bidirectional (at 118.872 91.44 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 8f1b3300-58bc-48ea-977d-83ce478a20a8)
+    )
+    (pin "IGN1" input (at 142.24 57.912 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 5cb8fa8a-614c-470c-9690-119205662ab5)
     )
   )
 
@@ -277,6 +300,9 @@
     (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/fc22141e-0464-4c9b-a99c-9164e34aa44a"
       (reference "#PWR025") (unit 1) (value "GND") (footprint "")
     )
+    (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/4aeaac5a-2cde-4037-9e7a-5c1c4b1275d0"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/472485e8-070c-45e8-970c-81997ac9d31f/9a635782-a656-4901-a321-decefa99a249"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
     )
@@ -349,6 +375,9 @@
     (path "/472485e8-070c-45e8-970c-81997ac9d31f/6d064ca6-3439-41ed-af69-70db14572922"
       (reference "J7") (unit 1) (value "GPIO") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
+    (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/2a45d4d6-52b7-4a1b-861f-6806ea44ed57"
+      (reference "J?") (unit 1) (value "PYRO1") (footprint "")
+    )
     (path "/88e3204c-6dd4-4bca-8d93-a1bae11ba17d/f9b839d5-4af8-426d-87ab-2df2d53ead01"
       (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Vishay_IHLP-1616")
     )
@@ -357,6 +386,9 @@
     )
     (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/9c8bf34f-46ee-48be-a480-69c389b9c0c8"
       (reference "Q2") (unit 1) (value "Q_NMOS_GSD") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/a79d2ddf-9434-4c89-a58c-488151bf3b66"
+      (reference "Q?") (unit 1) (value "Q_NMOS_GSD") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/472485e8-070c-45e8-970c-81997ac9d31f/6c7965de-69af-4ed2-ad27-cfe8a2e8bbc9"
       (reference "R1") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -399,6 +431,9 @@
     )
     (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/1c8d51e0-1f2b-4f95-85d6-d9e259006f9d"
       (reference "R14") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/300818aa-bcb1-40d6-89b2-9439f11ce4ba"
+      (reference "R?") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/472485e8-070c-45e8-970c-81997ac9d31f/e33953b3-4690-457f-b360-b7b9438ebddd"
       (reference "SW1") (unit 1) (value "BOOT") (footprint "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin")
