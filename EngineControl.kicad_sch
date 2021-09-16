@@ -341,7 +341,7 @@
       (reference "C11") (unit 1) (value "100uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D")
     )
     (path "/88e3204c-6dd4-4bca-8d93-a1bae11ba17d/bf448147-14f5-4b4c-9a94-6da22e77ec36"
-      (reference "C12") (unit 1) (value "100u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D")
+      (reference "C12") (unit 1) (value "100uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D")
     )
     (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/e51a0524-21e2-417c-9e03-1e8f9e98a4c8"
       (reference "C13") (unit 1) (value "2000uF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
@@ -355,7 +355,7 @@
     (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/fd273efa-9718-48eb-adb6-3c85418cd48e"
       (reference "D3") (unit 1) (value "LED_Cont.") (footprint "LED_SMD:LED_0603_1608Metric")
     )
-    (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/529cc0e4-e45f-47f5-99e7-e39d73786a12"
+    (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/deedc9cc-5d3a-4292-8746-b50c91f0d783"
       (reference "D4") (unit 1) (value "LED_Charge") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/65e1a0d3-06ad-4d06-8248-bcd9e5015372"
@@ -397,6 +397,9 @@
     (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/a22c0068-4a44-44fb-b91e-ce8dd73a89d1"
       (reference "Q4") (unit 1) (value "Q_NMOS_GSD") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
+    (path "/88e3204c-6dd4-4bca-8d93-a1bae11ba17d/bb825aeb-aa14-432a-9dd4-b49f4c64e056"
+      (reference "Q5") (unit 1) (value "PMOS-GSD") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
     (path "/472485e8-070c-45e8-970c-81997ac9d31f/6c7965de-69af-4ed2-ad27-cfe8a2e8bbc9"
       (reference "R1") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -420,9 +423,6 @@
     )
     (path "/88e3204c-6dd4-4bca-8d93-a1bae11ba17d/a4443feb-7b3e-4f34-a3e1-f758ba4a14ee"
       (reference "R8") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/91a4b98f-e450-4199-ab56-e07e36c9040e"
-      (reference "R9") (unit 1) (value "220") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/43e702a9-3533-4715-872a-827af84038be"
       (reference "R10") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0402_1005Metric")
