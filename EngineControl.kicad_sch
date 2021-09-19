@@ -322,6 +322,15 @@
     (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/f77e8ec7-a2fc-4cc0-a571-059691284889"
       (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
+    (path "/472485e8-070c-45e8-970c-81997ac9d31f/3ef89c15-ab54-4280-9750-269f4da008b5"
+      (reference "#PWR028") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/472485e8-070c-45e8-970c-81997ac9d31f/6b59f541-fd36-45c3-9113-b791786bbb8b"
+      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/472485e8-070c-45e8-970c-81997ac9d31f/4da04b8d-5150-4db2-9c5b-b5a41c4843fa"
+      (reference "#PWR030") (unit 1) (value "GND") (footprint "")
+    )
     (path "/472485e8-070c-45e8-970c-81997ac9d31f/9a635782-a656-4901-a321-decefa99a249"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
     )
@@ -360,6 +369,15 @@
     )
     (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/e51a0524-21e2-417c-9e03-1e8f9e98a4c8"
       (reference "C13") (unit 1) (value "2000uF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+    )
+    (path "/472485e8-070c-45e8-970c-81997ac9d31f/95209aa4-d0d9-42f1-b5ec-061449a1e939"
+      (reference "C14") (unit 1) (value "10uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
+    )
+    (path "/472485e8-070c-45e8-970c-81997ac9d31f/5c909601-a02a-44c1-bb4e-69872800d7de"
+      (reference "C15") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/472485e8-070c-45e8-970c-81997ac9d31f/333eed25-45a3-4b1c-965c-9e424397f6a9"
+      (reference "C16") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/472485e8-070c-45e8-970c-81997ac9d31f/f9e04ee8-79d0-4648-81f5-c705e65b0835"
       (reference "D1") (unit 1) (value "LED_HeartBeat") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -480,6 +498,9 @@
     )
     (path "/021a2ddc-ba8f-4bf6-8fd4-c966327b4dd3/e34a8f98-12ae-4dbb-a4e3-f354e5e27361"
       (reference "U4") (unit 1) (value "CPC1135N") (footprint "Package_SO:SOP-4_3.8x4.1mm_P2.54mm")
+    )
+    (path "/472485e8-070c-45e8-970c-81997ac9d31f/bacb25b8-341e-4e80-86dd-7c0aa8582ed8"
+      (reference "U5") (unit 1) (value "MPL3115A2") (footprint "Package_LGA:NXP_LGA-8_3x5mm_P1.25mm_H1.1mm")
     )
     (path "/472485e8-070c-45e8-970c-81997ac9d31f/d4047988-d8c1-45f8-8d91-6d57e08950fe"
       (reference "Y1") (unit 1) (value "8 Mhz 5032") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm")
