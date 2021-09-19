@@ -3312,9 +3312,9 @@
     (fp_line (start -1.6 0.4) (end -1.6 -0.8) (layer "B.Fab") (width 0.1) (tstamp 9163ca60-986e-4027-88e5-ec88b09ca1bd))
     (fp_line (start 1.6 0.8) (end -1.2 0.8) (layer "B.Fab") (width 0.1) (tstamp dacacd84-8569-4ea2-8e3a-99972aeac4c5))
     (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer "B.Fab") (width 0.1) (tstamp ec0d2244-0796-43dd-a7ac-eb615c26b4c1))
-    (pad "1" smd roundrect locked (at -1.35 0 270) (size 1.4 1.35) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.185185)
+    (pad "1" smd roundrect locked (at -1.35 0 270) (size 1.4 1.35) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1851851852)
       (net 1 "+3V3") (pintype "passive") (tstamp 1d5c28f6-e16c-4b0f-be4f-8c08aa937af9))
-    (pad "2" smd roundrect locked (at 1.35 0 270) (size 1.4 1.35) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.185185)
+    (pad "2" smd roundrect locked (at 1.35 0 270) (size 1.4 1.35) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1851851852)
       (net 2 "GND") (pintype "passive") (tstamp fb509e0c-a778-447f-a7a6-5c9e7d1de011))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3216-18_Kemet-A.wrl"
       (offset (xyz 0 0 0))

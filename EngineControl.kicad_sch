@@ -485,10 +485,10 @@
       (reference "R16") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/472485e8-070c-45e8-970c-81997ac9d31f/115da8fe-ac79-4fc8-9739-d6349cd5dfd0"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R17") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/472485e8-070c-45e8-970c-81997ac9d31f/61997fd2-98c0-4d22-ab49-1de8e7466494"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R18") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/472485e8-070c-45e8-970c-81997ac9d31f/e33953b3-4690-457f-b360-b7b9438ebddd"
       (reference "SW1") (unit 1) (value "BOOT") (footprint "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin")
